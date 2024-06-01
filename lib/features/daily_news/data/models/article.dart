@@ -2,7 +2,7 @@ import 'package:flutter_news_app_clean_architecture/features/daily_news/domain/e
 
 class ArticleModel extends ArticleEntity {
   const ArticleModel({
-    int? id,
+    String? id,
     String? author,
     String? title,
     String? description,
